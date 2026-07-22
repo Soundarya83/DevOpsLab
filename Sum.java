@@ -3,18 +3,9 @@ public class Sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int a, b, sum;
-
-        System.out.print("Enter first number: ");
-        a = sc.nextInt();
-
-        System.out.print("Enter second number: ");
-        b = sc.nextInt();
-
+        int a=5, b=7, sum;
         sum = a + b;
-
         System.out.println("Sum = " + sum);
-
         sc.close();
     }
 }
